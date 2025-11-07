@@ -64,6 +64,7 @@ Example:
 
 ### CVSS Formula  
 
+CVSS Score = Asset Criticality + Exploit Likelihood + Business Impact
 
 Example calculation for **Log4Shell Exploit**:  
 - Asset = Production DB → 3  
@@ -161,6 +162,8 @@ When a **critical incident** is detected, Tier-1 escalates to Tier-2 with a summ
 **Subject:**  
 `[CRITICAL] EMERGENCY: Active Ransomware Incident on Server-X`
 
+**Body:**
+
 Tier 2 Team,
 
 A critical ransomware incident has been identified on Server-X (172.23.0.107)
@@ -180,5 +183,5 @@ Thanks,
 Avinanadan Roy
 Tier-1 SOC Analyst
 
-**Body:**
+
 
